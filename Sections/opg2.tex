@@ -1,0 +1,55 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+\section*{Opgave 2}
+\subsection*{2a: Bestem en parameterfremstilling for den rette linje \textit{l}.}
+    \subsubsection*{Metode}
+        Vi ved at linjen \(l\) går igennem punkterne \(A\) og \(D\).\\
+        For at bestemme en parameterfremstilling for linjen \(l\) bestemmer jeg vektoren der går fra \(A\) til \(D\) og stedvektoren til \(A\).\\
+        \[\begin{pmatrix} x\\y\\z \end{pmatrix}=\overrightarrow{A}+t\cdot \overrightarrow{AD}\]
+        \(\overrightarrow{A}\) angiver placeringen i det tredimensionelle kartiesiske koordanatsystem. Mens \(\overrightarrow{AD}\) angiver retningen og \(t\) sørger for at vi rammer alle punkter.
+    \subsubsection*{Beregning}
+        \(A \defeq \langle 1{\vert 2\vert}0 \rangle\)\\
+        \(B \defeq \langle 3{\vert 4\vert}0 \rangle\)\\
+        \(C \defeq \langle 2{\vert 6\vert}0\rangle\)\\
+        \(D \defeq \langle 2{\vert 5\vert}7 \rangle\)\\\\
+        \(\overrightarrow{AD} \defeq D^{\%T} - A^{\%T}= \textcolor{blue}{\begin{pmatrix} 1\\ 3\\7 \end{pmatrix}}\)\\\\\\
+        \(\langle x, y, z \rangle = A^{\%T}+ t\cdot \overrightarrow{AD}\)
+        \textcolor{blue}{\[\begin{pmatrix} x \\ y\\ z\end{pmatrix}=\begin{pmatrix} 1+t \\ 2+3t\\ 7t\end{pmatrix}\]}
+    \subsubsection*{Konklusion}
+        Parameterfremstillingen for linjen \(l\) kan skrives ved:
+        \[\begin{pmatrix} x \\ y\\ z\end{pmatrix}=\begin{pmatrix}1\\ 2\\0 \end{pmatrix}+ t \cdot \begin{pmatrix} 1 \\ 3\\ 7\end{pmatrix}\]
+\clearpage
+\subsection*{2b: Bestem en ligning for den plan \(\pi\), der indeholder punkterne \textit{A}, \textit{B} og \textit{D}.}
+    \subsubsection*{Metode}
+        Først bestemmes vektor \(\overrightarrow{AB}\), \(\overrightarrow{AD}\) bestemte vi i forrige opgave, vektorerne udspænder da et plan \(\pi\) der går gennem \(A,\, B,\text{ og } D\).\\
+        Vi krydser \(\overrightarrow{AB}\) og \(\overrightarrow{AD}\) for at bestemme en normalvektor til planen.\\
+        Dernest prikker vi normalvektoren med en vilkårlig vektor i planen.
+        \[\overrightarrow{n}\bullet \left(\begin{pmatrix} x \\ y \\ z \end{pmatrix}-\begin{pmatrix}A_x \\A_y\\A_z \end{pmatrix}\right)=0\]
+        Vi får planens ligning.
+    \subsubsection*{Beregning}
+        \(\overrightarrow{AB} \defeq B^{\%T} - A^{\%T}=\textcolor{blue}{\begin{pmatrix} 2 \\ 2 \\ 0 \end{pmatrix}}\)\\\\\\
+        \(\overrightarrow{n} \defeq \overrightarrow{AB} \times \overrightarrow{AD} = \textcolor{blue}{\begin{pmatrix} 14 \\ -14 \\ 4 \end{pmatrix}}\)\\\\\\
+        \(\overrightarrow{n}\bullet \left(\begin{pmatrix} x \\ y \\ z \end{pmatrix}-A^{\%T}\right)=0\)
+        \textcolor{blue}{\[14x-14y+4z+14=0\]}
+        \subsubsection*{Konklusion}
+            Ligningen for planen \(\pi\) kan skrives ved:
+            \[14x-14y+4z+14=0\]
+\clearpage
+\subsection*{2c: Bestem afstanden mellem punktet \textit{M} og linjen \textit{l}.}
+    \subsubsection*{Metode}
+        Vi ved at distancen mellem et punkt og en linje i rummet er givet ved:
+        \[\text{dist}(P,l)=\frac{\left|\left| \overrightarrow{r} \times \overrightarrow{P_0 P}\right|\right|}{\left|\left|\overrightarrow{r} \right|\right|}\]
+        hvor \(\overrightarrow{r}\) er en retningsvektor for linjen og \(\overrightarrow{P_0 P}\) er vektoren fra \(P_0\) til \(P\).
+    \subsubsection*{Beregning}
+        Da punktet \(M\) er midtpunkt på linjestykket \(CD\). 
+        \begin{itemize}
+            \item \(C\begin{pmatrix} 2 & 6 & 0 \end{pmatrix}\)
+            \item \(D\begin{pmatrix} 2 & 5 & 7 \end{pmatrix}\)
+        \end{itemize}
+        Må punktet \(M\) have koordinaterne \(\begin{pmatrix} 2 & 5.5 & 3.5 \end{pmatrix}\).\\\\
+        \(M \defeq \langle 2{\vert 5.5\vert}3.5 \rangle\)\\\\
+        \(\overrightarrow{DM} \defeq M^{\%T}-D^{\%T} = \textcolor{blue}{\begin{pmatrix} 0 \\ 0.5 \\ -3.5 \end{pmatrix}}\)\\\\\\
+        \(\displaystyle \text{dist}(M, l)= \frac{\left|\left| \overrightarrow{AD} \times \overrightarrow{DM}\right|\right|}{\left|\left|\overrightarrow{AD} \right|\right|}=\textcolor{blue}{1.88}\)\\\\
+    \subsubsection*{Konklusion}
+    Afstanden mellem punktet \textit{M} og linjen \textit{l} er 1.88.
+\end{document}
