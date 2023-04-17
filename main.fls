@@ -664,6 +664,10 @@ INPUT Sections/opg2.tex
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT ./Sections/opg3.tex
+INPUT Sections/opg3.tex
+INPUT ./Sections/opg3.tex
+INPUT Sections/opg3.tex
 INPUT main.aux
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb

@@ -1,0 +1,29 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+\section*{Opgave 3}
+    \subsection*{3a: Bestem arealet A}
+        \subsubsection*{Metode}
+            Vi integrerer \(f(x)\) fra \(\pi\) til \(3\pi\).
+        \subsubsection*{Beregning}
+            \(f(x) \defeq \text{cos}(x)+1\)\\\\
+            \(\displaystyle A = \int_\pi ^{3\pi} f(x) \; dx = \textcolor{blue}{2\pi}\)\\
+        \subsubsection*{Konklusion}
+            Tværsnitsarealet af volden er \(2\pi\).
+
+\clearpage
+    \subsection*{3b: Bestem, hvor mange liter vand bassinet kan rumme, hvis det fyldes til randen}
+        \subsubsection*{Metode}
+            Vi ved at volumen for at omdrejningslegeme, der er drejet om andenaksen er givet ved:
+            \[V_y=2\pi \cdot \int _a ^b x\cdot f(x)\; dx\]
+            Vi ved at grafen for funktionen \(f\) er givet ved:
+            \[f(x)=\text{cos}(x)+1\, , \;\;\; x \in [\pi;\,3\pi]\]
+            Derfor kan bassinet rumme:
+            \[2\pi\int _0 ^{2\pi}x\cdot f(2\pi)\; dx-2\pi \int _\pi ^{2\pi} x\cdot f(x)\; dx\]
+            Omregn fra kubikmeter til liter.
+        \subsubsection*{Beregning}
+            \(\displaystyle V=2\pi\int _0 ^{2\pi}x\cdot f(2\pi)\; dx-2\pi \int _\pi ^{2\pi} x\cdot f(x)\; dx=\textcolor{blue}{142.465}\)\\\\
+            Omregn fra kubikmeter til liter.\\\\
+            \(1000 \cdot V = \textcolor{blue}{142465}\)
+        \subsubsection*{Konklusion}
+            Bassinet kan indeholde 142465 liter.
+\end{document}
