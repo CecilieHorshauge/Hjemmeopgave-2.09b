@@ -1,0 +1,26 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+\section*{Opgave 5}
+\subsection*{5a: Bestem, ved beregning, hallens diameter}
+    \subsubsection*{Metode}
+        Vi bestemmer først \(f\)'s skæring med x-aksen ved at løse ligningen:
+        \[0=17\cdot \text{cos}(0.0628\cdot x)\]
+        Her får vi radius, den ganger vi med 2 for at få diameteren.
+    \subsubsection*{Beregning}
+    \(f\left(x\right)\defeq 17\cdot \cos\left( 0.0628\cdot x\right)\colon \)\\\\
+        \(r \defeq solve\left(f(x)=0\right) = \textcolor{blue}{25.01268036}\)\\\\
+        \(D = r \cdot 2 = \textcolor{blue}{50.02536072}\)
+    \subsubsection*{Konklusion}
+        Hallens diameter er ca. 50 m.
+\vspace*{1.7 cm}
+\subsection*{5b: Bestem, ved integralregning, hvor mange tilskuere, der maksimalt må være i hallen}
+    \subsubsection*{Metode}
+        Vi kan bestemme volumen af hallen ved:
+        \[V_y = 2 \pi \int _0 ^r x\cdot f(x) \; dx + 8\pi r^2\]
+        Resultatet bliver i kubikmeter, for at udregne det maksimale antal tilskuere skal man blot dividere det med \(20\; \text{m}^3\).
+    \subsubsection*{Beregning}
+    \(V_y \defeq 2 \pi \int _0 ^r x\cdot f(x) \; dx + 8\pi r^2 = \textcolor{blue}{31183.23206}\)\\\\
+    \(displaystyle \frac{V_y}{20}=\textcolor{blue}{1559.161603}\)
+    \subsubsection*{Konklusion}
+    Der må maksimalt være 1559 tilskuere i hallen.
+\end{document}
