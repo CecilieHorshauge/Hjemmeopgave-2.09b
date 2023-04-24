@@ -1,11 +1,11 @@
 # Fdb version 4
-["pdflatex"] 1682357005 "c:/Users/cecih/Desktop/VS Code/Hjemmeopgave 2.09b/main.tex" "main.pdf" "main" 1682357007 0
+["pdflatex"] 1682358443 "c:/Users/cecih/Desktop/VS Code/Hjemmeopgave 2.09b/main.tex" "main.pdf" "main" 1682358445 0
   "Sections/opg1.tex" 1682356660 4469 7db688cac7bf09d061102ddd9781d006 ""
   "Sections/opg2.tex" 1682356759 4226 909d1c18bff1299b1e5c36710f9f9bae ""
   "Sections/opg3.tex" 1681715930 1488 dd775f15b170f2c2ee0a80c32684b1fe ""
   "Sections/opg4.tex" 1682356895 3719 dc8d530bae7af5b798e0b392714b3885 ""
-  "Sections/opg5.tex" 1682357001 1408 350cb478dbb9f02bb8808c2872c05c41 ""
-  "Sections/opg6.tex" 1682063311 4090 ac0b11685cb5ce5d0dda65976d5b876d ""
+  "Sections/opg5.tex" 1682358437 1409 74fba27e8d86aa3f7db23ef53c3550fc ""
+  "Sections/opg6.tex" 1682357608 4089 2b39b7f56eea55786a7980df89c580cd ""
   "c:/Users/cecih/Desktop/VS Code/Hjemmeopgave 2.09b/main.tex" 1681909557 383 7e542e9fbebc1bc3c4e4dfc5a56ea282 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1679575419 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1679576667 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -166,7 +166,7 @@
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1679583036 7883456 8b500e31a490f898c32bf97277dd79be ""
   "c:/texlive/2023/texmf.cnf" 1679582833 713 e69b156964470283e0530f5060668171 ""
   "macro.sty" 1681406430 490 ff4b38640c66cd1502f03573fe3eecb8 ""
-  "main.aux" 1682357007 132 71ae71225ba74e3200ce625e5aca897e "pdflatex"
+  "main.aux" 1682358444 132 71ae71225ba74e3200ce625e5aca897e "pdflatex"
   "main.tex" 1681909557 383 7e542e9fbebc1bc3c4e4dfc5a56ea282 ""
   "preamble.tex" 1681410687 704 61a83294df956374e490f4ce47e85bd7 ""
   (generated)
