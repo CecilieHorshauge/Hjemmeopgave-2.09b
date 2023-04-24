@@ -1,0 +1,55 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+\section*{Opgave 6}
+\subsection*{6a: Bestem længden af linjestykket DE}
+    \subsubsection*{Metode}
+    Vi bestemmer vektor \(\overrightarrow{DE}\) og beregner størrelsen af vektoren.
+    \subsubsection*{Beregning}
+    \(D \defeq \langle 0|0|2 \rangle\)\\
+    \(E \defeq \langle 4|4|1.6 \rangle\)\\\\
+    \(\overrightarrow{DE} \defeq E^{\%T}-D^{\%T} = \textcolor{blue}{\begin{pmatrix} 4\\ 4\\ -0.4 \end{pmatrix}}\)\\\\
+    \(\left|\left| \overrightarrow{DE} \right|\right| = \textcolor{blue}{5.670978752}\)
+    \subsubsection*{Konklusion}
+    Længden af linjestykket DE er 5.67 enheder.
+\clearpage
+\subsection*{6b: Bestem en parameterfremstilling for den rette linje \textit{l}, der går gennem punkt \textit{A} og punkt \textit{C}}
+    \subsubsection*{Metode}
+        Vi ved at linjen \(l\) går igennem punkterne \(A\) og \(C\).\\
+        For at bestemme en parameterfremstilling for linjen \(l\) bestemmer vi vektoren der går fra \(A\) til \(C\) og stedvektoren til \(A\).\\
+        \[\begin{pmatrix} x\\y\\z \end{pmatrix}=\overrightarrow{A}+t\cdot \overrightarrow{AC}\]
+        \(\overrightarrow{A}\) angiver placeringen i det tredimensionelle kartesiske koordanatsystem. Mens \(\overrightarrow{AC}\) angiver retningen og \(t\) sørger for at vi rammer alle punkter.
+    \subsubsection*{Beregning}
+        \(A \defeq \langle 0|0|0 \rangle\)\\
+        \(C \defeq \langle 5|5|2 \rangle\)\\
+        \(\overrightarrow{AC} \defeq C^{\%T}-A^{\%T} = \textcolor{blue}{\begin{pmatrix}5\\5\\2 \end{pmatrix}}\)\\
+        \(\begin{pmatrix}x\\y\\z \end{pmatrix}=A^{\%T} + t\cdot \overrightarrow{AC}\)
+        \[\textcolor{blue}{\begin{pmatrix}x\\y\\z \end{pmatrix} = t \cdot \begin{pmatrix}5\\5\\2 \end{pmatrix}}\]
+    \subsubsection*{Konklusion}
+        Parameterfremstillingen for den rette linje \(l\) kan skrives ved:
+        \[\begin{pmatrix}x\\y\\z \end{pmatrix} = t \cdot \begin{pmatrix}5\\5\\2 \end{pmatrix}\]
+\clearpage
+\subsection*{6c: Bestem vinklen mellem linje \textit{m} og linje \textit{l}.}
+    \subsubsection*{Metode}
+        Først bestemmer vi en retningsvektor for linje \(l\) og \(m\).\\
+        Derefter benytter vi sammenhængen med prikproduktet af to vektorer og vinklen imellem dem:
+        \[\overrightarrow{a}\bullet \overrightarrow{b}=\left|\overrightarrow{a}\right|\cdot\left|\overrightarrow{b}\right|\cdot \text{cos}(v)\]
+        Vi isolerer v.
+    \subsubsection*{Beregning}
+        Vektor \(\overrightarrow{DE}\) er en retningsvektor for linjen \(m\).\\
+        Vektor \(\overrightarrow{AC}\) er en retningsvektor for linjen \(l\).\\\\
+        \(\displaystyle v = solve\left(\overrightarrow{DE} \bullet \overrightarrow{AC} = \left|\left|\overrightarrow{DE} \right|\right| \cdot \left|\left|\overrightarrow{AC} \right|\right|\cdot \text{cos} (v)\right) \cdot \frac{360}{2\pi} = \textcolor{blue}{19.83786034}\)
+    \subsubsection*{Konklusion}
+        Vinklen mellem linje \(m\) og \(l\) er ca.  \(19.84\degree\).
+\vspace*{1.5 cm}
+\subsection*{6d: Bestem arealet af trekanten \textit{ABC}}
+    \subsubsection*{Metode}
+        Vi bestemmer arealet af trekanten \(ABC\) ved:
+        \[A_\triangle=\frac{1}{2} \cdot \left|\left| \overrightarrow{AB} \times \overrightarrow{AC}\right|\right|\]
+        Netop da det er gældende at \(\displaystyle \left|\overrightarrow{a} \times \overrightarrow{b} \right|=\left|\overrightarrow{a}\right|\cdot \left|\overrightarrow{b} \right|\cdot \text{sin}(v)\), det vi genkender som \(h\cdot g\). 
+    \subsubsection*{Beregning}
+        \(B \defeq \langle 3 | 0 | 0 \rangle = \textcolor{blue}{\begin{pmatrix} 3 & 0 & 0 \end{pmatrix}}\)\\\\
+        \(\overrightarrow{AB} \defeq B^{\%T}-A^{\%T} = \textcolor{blue}{\begin{pmatrix} 3\\0\\0 \end{pmatrix}}\)\\\\
+        \(\displaystyle A=\frac{1}{2}\cdot \left|\left| \overrightarrow{AB} \times \overrightarrow{AC}\right|\right| = \textcolor{blue}{8.077747210}\)
+    \subsubsection*{Konklusion}
+        Arealet af trekanten \(ABC\) er ca.  \(8.08 \;\text{enh}^2\).
+\end{document}
