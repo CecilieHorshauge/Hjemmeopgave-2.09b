@@ -1,12 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1682435008 "c:/Users/cecih/Desktop/VS Code/Hjemmeopgave 2.09b/main.tex" "main.pdf" "main" 1682435011 0
-  "Sections/opg1.tex" 1682356660 4469 7db688cac7bf09d061102ddd9781d006 ""
+["pdflatex"] 1682434850 "c:/Users/cecih/Desktop/VS Code/Hjemmeopgave 2.09b/Sections/opg2.tex" "Sections/opg2.pdf" "opg2" 1682434852 0
+  "Sections/../main.tex" 1681909557 383 7e542e9fbebc1bc3c4e4dfc5a56ea282 ""
+  "Sections/opg2.aux" 1682434852 131 fadc50f9dfcfbee3538eb4877a4318ef "pdflatex"
   "Sections/opg2.tex" 1682434845 4226 22dc204495043e249986ab5ab66eaf75 ""
-  "Sections/opg3.tex" 1681715930 1488 dd775f15b170f2c2ee0a80c32684b1fe ""
-  "Sections/opg4.tex" 1682356895 3719 dc8d530bae7af5b798e0b392714b3885 ""
-  "Sections/opg5.tex" 1682358437 1409 74fba27e8d86aa3f7db23ef53c3550fc ""
-  "Sections/opg6.tex" 1682357608 4089 2b39b7f56eea55786a7980df89c580cd ""
-  "c:/Users/cecih/Desktop/VS Code/Hjemmeopgave 2.09b/main.tex" 1681909557 383 7e542e9fbebc1bc3c4e4dfc5a56ea282 ""
+  "c:/Users/cecih/Desktop/VS Code/Hjemmeopgave 2.09b/Sections/opg2.tex" 1682434845 4226 22dc204495043e249986ab5ab66eaf75 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1679575419 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1679576667 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1679576310 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -55,7 +52,6 @@
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1679574768 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1679574768 32762 7fee39e011c23b3589931effd97b9702 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1679574769 32569 5e5ddc8df908dea60932f3c484a54c0d ""
-  "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1679574769 32716 08e384dc442464e7285e891af9f45947 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1679574769 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1679575419 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1679578614 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -153,6 +149,7 @@
   "c:/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty" 1679579429 989 c49c8ae06d96f8b15869da7428047b1e ""
   "c:/texlive/2023/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty" 1679579429 443 8c872229db56122037e86bcda49e14f3 ""
   "c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty" 1679579429 325 f9f16d12354225b7dd52a3321f085955 ""
+  "c:/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.cls" 1679581622 1507 57de335d88fde4e5c924dfed577fdb74 ""
   "c:/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.sty" 1679581622 5262 70ab9987ec94ed2beeb5c2d951d465f6 ""
   "c:/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty" 1679581739 100426 2bce05b9314899534186dd5b9964ae73 ""
   "c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty" 1679582143 12691 5b542990fe866f3d772f71346cf85b95 ""
@@ -166,11 +163,9 @@
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1679583036 7883456 8b500e31a490f898c32bf97277dd79be ""
   "c:/texlive/2023/texmf.cnf" 1679582833 713 e69b156964470283e0530f5060668171 ""
   "macro.sty" 1681406430 490 ff4b38640c66cd1502f03573fe3eecb8 ""
-  "main.aux" 1682435010 132 71ae71225ba74e3200ce625e5aca897e "pdflatex"
-  "main.tex" 1681909557 383 7e542e9fbebc1bc3c4e4dfc5a56ea282 ""
   "preamble.tex" 1681410687 704 61a83294df956374e490f4ce47e85bd7 ""
   (generated)
-  "main.aux"
-  "main.log"
-  "main.pdf"
+  "Sections/opg2.aux"
+  "Sections/opg2.log"
+  "Sections/opg2.pdf"
   (rewritten before read)
